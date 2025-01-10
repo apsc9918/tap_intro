@@ -36,7 +36,7 @@ export default function Survey() {
     formDataToSend.append('senderEmail', formData.email);
     formDataToSend.append('message', message);
 
-    const { data, error } = await sendEmail(formDataToSend);
+    const { error } = await sendEmail(formDataToSend);
 
     if (error) {
       toast.error(error);

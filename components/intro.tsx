@@ -60,11 +60,13 @@ export default function Intro() {
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
             >
-                <span className="font-bold">Hello, I'm TAP.</span> I'm a{" "}
-                <span className="font-bold">Talent Acqusition Platform</span> in my early stage of {" "}
-                <span className="font-bold">devlopment</span>. I enjoy
-                helping people to bring their <span className="italic font-bold">Ideas</span> into reality by finding them a right <span className="italic font-bold">Co-Founder&Team</span>. My focus is to find you another{" "}
-                <span className="underline">You</span>.
+                <span className="font-bold">Hello, I&apos;m TAP.</span>{" "}
+                I&apos;m a{" "}<span className="font-bold">Talent Acquisition Platform</span>{" "}
+                in the early stages of{" "}
+                <span className="font-bold">development</span>. I enjoy{" "}
+                helping people bring their{" "}<span className="italic font-bold">Ideas</span>{" "}
+                to life by finding them the right{" "}<span className="italic font-bold">Co-Founder & Team</span>.
+                My focus is on finding you another{" "}<span className="underline">You</span>.
             </motion.h1>
 
             <motion.div

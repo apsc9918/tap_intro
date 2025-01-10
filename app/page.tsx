@@ -4,7 +4,7 @@ import Experience from "@/components/experience";
 import Intro from "@/components/intro";
 import SectionDivider from "@/components/section-divider";
 import Skills from "@/components/skills";
-import Feature from "@/components/feature";
+// import Feature from "@/components/feature";
 import Features from "@/components/features";
 
 
